@@ -1,0 +1,11 @@
+go:-
+    write("Enter your first number: "),nl,
+    read(X),nl,
+    write("Enter your second number: "),nl,
+    read(Y),nl,
+    number(X,Y).
+
+number(X,Y):- Sum is X+Y, nl,
+    write("Summation is: "),nl,
+    write(Sum).
+

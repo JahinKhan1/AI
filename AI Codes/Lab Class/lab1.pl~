@@ -1,0 +1,5 @@
+fish(ray).
+fish(salmon).
+red(car).
+likes(mary,john).
+factorial(3,6).
